@@ -1,7 +1,7 @@
 # Git Tricks
 Useful Git tricks found in the internet.
 
-## Cherry-pick from different remote
+## Cherry-pick from a different remote
 ```sh
 $ git --git-dir=../<some_other_repo>/.git \
 format-patch -k -1 --stdout <commit SHA> | \
